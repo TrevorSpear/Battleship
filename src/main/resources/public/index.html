@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en" data-framework="intercoolerjs">
+<head>
+    <meta charset="utf-8">
+    <title>Group_6</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<script src="/js/vendor/jquery-1.12.4.min.js"></script>
+<p id="imag"><img id="Lship" src="Battleship.png" align="left"> <img id="Rship" src="Battleship.png" align="right"></p>
+
+<header>
+    <ul class="navbar-list">
+        <li class="navbar-item header">Battleship</li>
+        <li class="navbar-item navbar-right"><a href="/">Home</a></li>
+        <li class="navbar-item navbar-right" id="myBtn"><a href="#">Rules</a></li>
+    </ul>
+
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h1>Welcome To Battleship!</h1>
+            <p>To play, simply press the play button on one of the following game modes below!</p>
+            <h3>Classic</h3>
+            Your standard battleship game. You get five ships to place. After placing them, you may start firing on your enemy's board
+            <br>
+            To win, sink your enemy's ships before they sink yours!
+            <h3>Redux</h3>
+            Somewhat similar to Classic but with the following changes:<br>
+            The Dinghy and Clipper are civilian ships that replace the Cruiser and Destroyer and sink after only one hit<br>
+            You may scan instead of firing. Doing so will tell you if there is a ship located in a one block radius ( a "+" formation) around where you select<br>
+            Your battleship and submarine are able to evade scans<br>
+        </div>
+    </div>
+</header>
+
+<br><br>
+
+<body>
+
+<section class="title">
+    <h1>What will you play?</h1>
+</section>
+
+<br>
+
+<div class="wrapper">
+    <div class="item">
+        <div class="itemHeader">
+            <h2>Classic</h2>
+        </div>
+        <br>
+        <p>5 normal ships</p>
+        <p>You die if killed</p>
+        <p>Standard rules</p>
+        <p>Tried and true</p>
+        <br><br><br>
+        <div class="playButton">
+            <button><span><a href="Classic.html">Engage</a></span></button>
+        </div>
+    </div>
+    <div class = "item">
+        <div class="itemHeader">
+            <h2>Redux</h2>
+        </div>
+        <br>
+        <p>3 military ships</p>
+        <p>2 civilian ships</p>
+        <p>Scan opponent</p>
+        <p>Stealth units</p>
+        <br><br><br>
+        <div class="playButton">
+            <button><span><a href="Updated.html">Engage</a></span></button>
+        </div>
+    </div>
+</div>
+
+<br><br><br><br><br><br><br><br>
+
+<footer id="footer">
+    <br>
+    Trevor Spear
+    <br><br>
+</footer>
+
+</body>
+<script src="/js/app.js"></script>
+</html>
