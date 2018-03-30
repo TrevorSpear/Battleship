@@ -1,4 +1,4 @@
-package edu.oregonstate.cs361.battleship;
+package edu.oregonstate.trevorspear.battleship;
 
 import com.google.gson.Gson;
 import spark.Request;

@@ -1,9 +1,9 @@
-package edu.oregonstate.cs361.battleship;
+package edu.oregonstate.trevorspear.battleship;
 
 import spark.Request;
 import java.util.ArrayList;
 import java.util.List;
-import static edu.oregonstate.cs361.battleship.Main.Hit;
+import static edu.oregonstate.trevorspear.battleship.Main.Hit;
 
 public class BattleshipModel {
 

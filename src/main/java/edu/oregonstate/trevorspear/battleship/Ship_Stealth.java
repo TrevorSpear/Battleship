@@ -1,6 +1,4 @@
-package edu.oregonstate.cs361.battleship;
-
-import static edu.oregonstate.cs361.battleship.Main.Hit;
+package edu.oregonstate.trevorspear.battleship;
 
 /**
  * Created by TrevorSpear on 2/28/17.

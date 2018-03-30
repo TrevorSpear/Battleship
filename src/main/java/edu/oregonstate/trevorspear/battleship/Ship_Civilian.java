@@ -1,7 +1,7 @@
-package edu.oregonstate.cs361.battleship;
+package edu.oregonstate.trevorspear.battleship;
 
-import static edu.oregonstate.cs361.battleship.Main.alreadyShot;
-import static edu.oregonstate.cs361.battleship.Main.Hit;
+import static edu.oregonstate.trevorspear.battleship.Main.alreadyShot;
+import static edu.oregonstate.trevorspear.battleship.Main.Hit;
 
 /**
  * Created by TrevorSpear on 2/28/17.

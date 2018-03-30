@@ -1,4 +1,4 @@
-package edu.oregonstate.cs361.battleship;
+package edu.oregonstate.trevorspear.battleship;
 
 /**
  * Created by TrevorSpear on 1/30/17.
